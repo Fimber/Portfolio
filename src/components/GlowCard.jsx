@@ -42,6 +42,15 @@ const GlowCard = ({ card, index, children }) => {
         <p className="text-white-50 text-lg">{card.review}</p>
       </div>
       {children}
+      {card.imgPath && (
+        <div className="w-full h-28 rounded-xl overflow-hidden border border-white/5 mt-5">
+          <img
+            src={card.imgPath}
+            alt={`${card.title || "Experience"} banner`}
+            className="w-full h-full object-cover"
+          />
+        </div>
+      )}
     </div>
   );
 };

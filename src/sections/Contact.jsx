@@ -8,8 +8,9 @@ const Contact = () => {
   const formRef = useRef(null);
   const [loading, setLoading] = useState(false);
   const [form, setForm] = useState({
-    name: "",
-    email: "",
+    from_name: "",
+    from_email: "",
+    title: "",
     message: "",
   });
 
@@ -31,7 +32,7 @@ const Contact = () => {
       );
 
       // Reset form and stop loading
-      setForm({ name: "", email: "", message: "" });
+    setForm({ from_name: "", from_email: "", title: "", message: "" });
     } catch (error) {
       console.error("EmailJS Error:", error); // Optional: show toast
     } finally {
@@ -55,12 +56,12 @@ const Contact = () => {
                 className="w-full flex flex-col gap-7"
               >
                 <div>
-                  <label htmlFor="name">Your name</label>
+                  <label htmlFor="from_name">Your name</label>
                   <input
                     type="text"
-                    id="name"
-                    name="name"
-                    value={form.name}
+                    id="from_name"
+                    name="from_name"
+                    value={form.from_name}
                     onChange={handleChange}
                     placeholder="What’s your good name?"
                     required
@@ -68,14 +69,27 @@ const Contact = () => {
                 </div>
 
                 <div>
-                  <label htmlFor="email">Your Email</label>
+                  <label htmlFor="from_email">Your Email</label>
                   <input
                     type="email"
-                    id="email"
-                    name="email"
-                    value={form.email}
+                    id="from_email"
+                    name="from_email"
+                    value={form.from_email}
                     onChange={handleChange}
                     placeholder="What’s your email address?"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="title">Project or Topic</label>
+                  <input
+                    type="text"
+                    id="title"
+                    name="title"
+                    value={form.title}
+                    onChange={handleChange}
+                    placeholder="What should I call this conversation?"
                     required
                   />
                 </div>
