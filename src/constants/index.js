@@ -130,7 +130,7 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Backend Developer",
+    name: "Frontend Developer",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
@@ -153,8 +153,8 @@ const expCards = [
   {
     review:
       "Delivering product-led SEO content that ties SaaSGroup's product value directly to ICP pain points and growth goals.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
+    imgPath: "/images/saasgroup.png",
+    logoPath: "/images/saaslogo.jpeg",
     title: "Freelance B2B SaaS Content Writer - SaaSGroup",
     date: "Oct 2023 - Present | Remote",
     responsibilities: [
@@ -167,8 +167,8 @@ const expCards = [
   {
     review:
       "Translating fine-grained authorization concepts into approachable, high-impact thought leadership for Permify.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
+    imgPath: "/images/permify-full.png",
+    logoPath: "/images/permify-logo.jpg",
     title: "Freelance Technical Writer - Permify (Authorization / FGA)",
     date: "Aug 2024 - Present | Remote",
     responsibilities: [
@@ -180,7 +180,7 @@ const expCards = [
   {
     review:
       "Building trusted technical content for Scrape.do with actionable guidance on modern web scraping challenges.",
-    imgPath: "/images/exp3.png",
+    imgPath: "/images/scrape.png",
     logoPath: "/images/scrape.png",
     title: "Freelance Technical Writer - Scrape.do",
     date: "Aug 2024 - Present | Remote",
@@ -193,7 +193,7 @@ const expCards = [
   {
     review:
       "Supporting LogRocket's audience with deeply researched frontend and DevTools analysis that cuts reader friction.",
-    imgPath: "/images/exp1.png",
+    imgPath: "/images/logrocket.jpg",
     logoPath: "/images/logrocket.jpg",
     title: "Technical Author - LogRocket",
     date: "Jun 2022 - Present | Remote",
@@ -206,8 +206,8 @@ const expCards = [
   {
     review:
       "Crafting detailed coverage of frontend and AI topics for SitePoint's developer community.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo3.png",
+    imgPath: "/images/sitepoint.png",
+    logoPath: "/images/sitepointlogo.png",
     title: "Technical Writer - SitePoint",
     date: "Oct 2022 - Dec 2022 | Remote",
     responsibilities: [
@@ -218,8 +218,8 @@ const expCards = [
   {
     review:
       "Driving organic gains for Refine through SEO-focused content and visual storytelling.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logos/company-logo-4.png",
+    imgPath: "/images/refine.png",
+    logoPath: "/images/refinelogo.png",
     title: "Technical Writer - Refine",
     date: "Dec 2022 - Jan 2023 | Remote",
     responsibilities: [
@@ -231,8 +231,8 @@ const expCards = [
   {
     review:
       "Leading editorial operations for InPlainEnglish to scale distribution and reader trust.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logos/company-logo-5.png",
+    imgPath: "/images/inplainenglish.jpeg",
+    logoPath: "/images/inplainenglishlogo.jpeg",
     title: "Technical Writer & Publication Manager - InPlainEnglish",
     date: "Apr 2023 - Sep 2023 | Remote",
     responsibilities: [
@@ -246,11 +246,11 @@ const expCards = [
 const expLogos = [
   {
     name: "SaaSGroup",
-    imgPath: "/images/logo1.png",
+    imgPath: "/images/saaslogo.jpeg",
   },
   {
     name: "Permify",
-    imgPath: "/images/logo2.png",
+    imgPath: "/images/permify-logo.jpg",
   },
   {
     name: "Scrape.do",
@@ -262,15 +262,15 @@ const expLogos = [
   },
   {
     name: "SitePoint",
-    imgPath: "/images/logo3.png",
+    imgPath: "/images/sitepointlogo.png",
   },
   {
     name: "Refine",
-    imgPath: "/images/logos/company-logo-4.png",
+    imgPath: "/images/refinelogo.png",
   },
   {
     name: "InPlainEnglish",
-    imgPath: "/images/logos/company-logo-5.png",
+    imgPath: "/images/inplainenglishlogo.jpeg",
   },
 ];
 
