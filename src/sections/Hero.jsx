@@ -50,11 +50,11 @@ const Hero = () => {
               <h1>that Delivers Results</h1>
             </div>
 
-            <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Fimber, a technical content writer and developer from Nigeria. <br/>
-              I'm not great at a lot of things(like cooking or dancing), <br/>
-              but I'm really great at writing content that <br/>educates, engages, and drives revenue. <br/>
-              That's my superpower. 
+            <p className="text-white-50 md:text-xl relative z-10 pointer-events-none max-w-xl">
+              Hi, I’m Fimber, a technical content writer and developer from Nigeria.
+              I’m not great at a lot of things (like cooking or dancing),
+              but I’m really great at writing content that educates, engages, and drives revenue.
+              That’s my superpower.
             </p>
 
             <Button

@@ -7,6 +7,8 @@ import ContactExperience from "../components/models/contact/ContactExperience";
 const Contact = () => {
   const formRef = useRef(null);
   const [loading, setLoading] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState(false);
   const [form, setForm] = useState({
     from_name: "",
     from_email: "",
@@ -31,12 +33,14 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       );
 
-      // Reset form and stop loading
-    setForm({ from_name: "", from_email: "", title: "", message: "" });
-    } catch (error) {
-      console.error("EmailJS Error:", error); // Optional: show toast
+      setForm({ from_name: "", from_email: "", title: "", message: "" });
+      setSubmitted(true);
+      setError(false);
+    } catch (err) {
+      console.error("EmailJS Error:", err);
+      setError(true);
     } finally {
-      setLoading(false); // Always stop loading, even on error
+      setLoading(false);
     }
   };
 
@@ -106,6 +110,17 @@ const Contact = () => {
                     required
                   />
                 </div>
+
+                {submitted && (
+                  <p className="text-green-400 text-sm font-medium">
+                    ✅ Message sent! I'll get back to you soon.
+                  </p>
+                )}
+                {error && (
+                  <p className="text-red-400 text-sm font-medium">
+                    ❌ Something went wrong. Please try again or email me directly.
+                  </p>
+                )}
 
                 <button type="submit">
                   <div className="cta-button group">

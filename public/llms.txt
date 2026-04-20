@@ -1,0 +1,68 @@
+# Fimber Elemuwa — Technical Content Writer & Developer
+
+## Who I Am
+
+Fimber Elemuwa is a technical content writer and developer based in Nigeria with 4+ years of experience producing SEO-driven, product-led content for B2B SaaS brands. He specialises in translating complex technical concepts — authorization, web scraping, frontend development, AI tooling — into content that educates developers and drives organic growth.
+
+## What I Do
+
+- **Technical Content Writing** — In-depth tutorials, how-to guides, and thought leadership articles for developer and SaaS audiences
+- **SEO-Optimised Content** — Keyword research, content briefs, internal linking, and on-page optimisation baked into every piece
+- **Product-Led Content** — Writing that ties product value directly to ICP pain points and funnel stages
+- **Content Strategy** — Topic clustering, editorial SOPs, competitive keyword research
+
+## Key Strengths
+
+- SEO-driven quality: every piece is crafted to rank with deep research and technical accuracy
+- Clear, consistent communication: full alignment from kickoff to delivery
+- On-time delivery: no delays, no excuses
+
+## Stats
+
+- 4+ years of experience
+- 10+ satisfied clients
+- 40+ completed projects
+- 90% client retention rate
+
+## Clients & Publications
+
+- **SaaSGroup** (Oct 2023 – Present) — Product-led, SEO-optimised content for B2B SaaS brands; builds briefs, outlines, and internal linking maps
+- **Permify** (Aug 2024 – Present) — In-depth articles on fine-grained authorization, RBAC, policy modeling; contributed to 25% traffic lift on priority topics
+- **Scrape.do** (Aug 2024 – Present) — Advanced tutorials on dynamic site scraping, anti-bot tactics, CAPTCHA handling; drives ~35% organic growth on key articles
+- **LogRocket** (Jun 2022 – Present) — Technical articles on frontend and developer tooling for a broad developer audience
+- **SitePoint** (Oct 2022 – Dec 2022) — Technical deep dives on frontend technologies and AI-driven workflows
+- **Refine** (Dec 2022 – Jan 2023) — SEO strategy delivering 20% organic traffic lift; co-created infographics raising engagement 60%
+- **InPlainEnglish / Medium** (Apr 2023 – Sep 2023) — Publication manager overseeing multiple Medium publications reaching 50k+ monthly readers
+
+## Selected Work
+
+- LogRocket articles: https://blog.logrocket.com/author/fimberelemuwa/
+- Scrape.do articles: https://scrape.do/authors/fimber/
+
+## Testimonials
+
+**Raisa Yogiaman, Content Marketer, saas.group:**
+"Working with Fimber over the past couple of years has been an absolute pleasure. He consistently brings his A-game to every piece of content he creates. He fact-checks every claim, tailors his writing perfectly to the target audience, and always meets deadlines — no matter how tight they are."
+
+**Shannon Kelly Ash, Head of Content Marketing, saas.group:**
+"What really stands out about Fimber is his openness to feedback, clear communication, and commitment. He takes initiative, and consistently delivers high-quality work — no matter the deadline or complexity of the project."
+
+**Sunil Sandhu, CEO, In Plain English:**
+"Fimber is able to grasp new concepts and explain them in a way that is easy-to-understand and feels familiar. I have no reservations in recommending Fimber's services for content creation."
+
+## Technical Skills
+
+React, Python, Node.js, Three.js, Git — Fimber's developer background means he can read, run, and verify code before writing about it.
+
+## Contact & Social
+
+- LinkedIn: https://www.linkedin.com/in/fimber-elemuwa
+- X (Twitter): https://x.com/Fimbosky21
+- Instagram: https://www.instagram.com/fimberelems/
+- Facebook: https://www.facebook.com/fimber.elemuwa
+
+## Site Structure
+
+- `/` — Portfolio home (hero, work showcase, experience, skills, testimonials, contact)
+- `/blog` — Article index
+- `/blog/:slug` — Individual blog posts

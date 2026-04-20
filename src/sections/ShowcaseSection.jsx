@@ -89,10 +89,17 @@ const AppShowcase = () => {
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
-              </div>
-              <h2>More of my Portfolio</h2>
+              <a
+                href="https://www.linkedin.com/in/fimber-elemuwa"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <div className="image-wrapper bg-[#FFE7EB]">
+                  <img src="/images/project3.png" alt="More portfolio work" />
+                </div>
+                <h2>More of my Portfolio</h2>
+              </a>
             </div>
           </div>
         </div>
